@@ -30,5 +30,5 @@ python runOptionScraper.py
 ```
 and you are done. The script will keep running until it finishes scraping all 7000+ stocks on the NASDAQ.
 
-##Concurrency
+## Concurrency
 You might notice the script takes rather long to scrape all your data. If you want to improve the speed, change the variable *Workers* in the runOptionScraper.py file, which controls how many concurrent processes will run at the same time. If *workers* = 20, you will be scraping 20 tickers at once.
